@@ -1148,6 +1148,9 @@ module.exports = class CampaignView extends RootView
     if what in ['settings', 'leaderboard', 'back-to-campaigns', 'poll', 'items', 'heros', 'achievements', 'clans', 'poll', 'buy-gems']
       return !isStudent
 
+    if what in ['back-to-classroom']
+      return isStudent
+
     if what in 'buy-gems'
       return (me.get('anonymous') is false || me.get('iosIdentifierForVendor') || isIPadApp) && !me.freeOnly() 
 

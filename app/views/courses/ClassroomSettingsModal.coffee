@@ -34,8 +34,8 @@ module.exports = class ClassroomSettingsModal extends ModalView
       forms.setErrorToProperty(form, 'language', $.i18n.t('common.required_field'))
       return
     
-    settings = @classroom.get('settings')
-    mayTweak = settings.optionsEditable or me.isAdmin()
+    settings = @classroom.get('settings') or {}
+    mayTweak = settings?.optionsEditable or me.isAdmin()
     for k in Object.keys(attrs)
       if /^settings\//.test(k)
         val = (attrs[k].length > 0)
