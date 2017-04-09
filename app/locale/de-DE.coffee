@@ -1741,7 +1741,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     diplomat_attribute_1: "Du sprichst/schreibst sowohl Englisch als auch die Sprache deiner Wahl flüssig. Wenn man komplizierte Informationen vermitteln will, muss man BEIDE Sprachen wirklich beherrschen."
     diplomat_i18n_page_prefix: "Du kannst anfangen unsere Levels zu übersetzen, indem du auf unsere"
     diplomat_i18n_page: "Übersetzungs-Seite"
-    diplomat_i18n_page_suffix: "gehst, oder unsere Schnittstelle und Webseite bei GitHub benutzt."
+    diplomat_i18n_page_suffix: " gehst, oder unsere Schnittstelle und Webseite bei GitHub benutzt."
     diplomat_join_pref_github: "Finde deine Sprachdatei "
     diplomat_github_url: "bei GitHub"
     diplomat_join_suf_github: ", editiere sie online und reiche einen Pull Request ein. Außerdem, hake die Checkbox unten an um über neue Entwicklungen bei der Internationalisierung auf dem laufenden zu bleiben!"
