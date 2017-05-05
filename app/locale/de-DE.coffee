@@ -127,7 +127,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     locked: "Gesperrt"
     purchasable: "Zu kaufen" # For a hero you unlocked but haven't purchased
     available: "Verfügbar"
-    skills_granted: "Erhaltene" # Property documentation details
+    skills_granted: "Gewhärte Fertigkeiten" # Property documentation details
     heroes: "Helden" # Tooltip on hero shop button from /play
     achievements: "Errungenschaften" # Tooltip on achievement list button from /play
     settings: "Einstellungen" # Tooltip on settings button from /play
@@ -149,7 +149,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     awaiting_levels_adventurer_suffix: "sei der Erste, der neue Levels spielt."
     adjust_volume: "Lautstärke anpassen"
     campaign_multiplayer: "Mehrspieler-Abenteuer"
-    campaign_multiplayer_description: "... in der du Kopf-an-Kopf gegen andere Spieler programmierst."
+    campaign_multiplayer_description: "... in denen du Kopf-an-Kopf gegen andere Spieler programmierst."
     brain_pop_done: "Programmierter Sieg über die Oger!"
 
   code:
@@ -713,11 +713,11 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     cougar_name: "Puma"
     cougar_description: "Ein Puma möchte täglich glücklich schnurren - bis der Arzt kommt."
     fox_name: "Blaufuchs"
-    fox_description: "Blauchfüchse sind sehr schlau und lieben es, der Erde oder im Schnee zu graben!"
+    fox_description: "Blauchfüchse sind sehr schlau und lieben es, in der Erde oder im Schnee zu graben!"
     pugicorn_name: "Mops-Einhorn"
-    pugicorn_description: "Das Mops-Einhörn ist eine der seltensten Kreaturen und es kann zaubern!"
+    pugicorn_description: "Das Mops-Einhorn ist eine der seltensten Kreaturen und es kann zaubern!"
     wolf_name: "Wolfswelpe"
-    wolf_description: "Wolfswelpen können ganz hervorragend jagen, sammeln und hervorragend gemein verstecken und aufspüren."
+    wolf_description: "Wolfswelpen können ganz hervorragend jagen und sammeln sowie ganz ausgezeichnet versteckspielen."
     ball_name: "Roter quietschender Ball"
     ball_description: "ball.squeak()"
     collect_pets: "Sammle Lieblingstiere für deine Helden!"
